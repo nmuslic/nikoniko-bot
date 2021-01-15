@@ -1,0 +1,22 @@
+{
+  "name": "nikonikoapp",
+  "version": "1.0.0",
+  "description": "Niko-Niko App mood board",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://nikonikoapp.scm.azurewebsites.net:443/nikonikoapp.git"
+  },
+  "author": "Nejra Muslic",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^2.4.1",
+    "node-schedule": "^1.3.2",
+    "pg": "^8.4.1",
+    "sequelize": "^5.22.3"
+  }
+}
